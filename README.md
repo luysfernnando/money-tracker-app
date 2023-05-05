@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Money Tracker App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma aplicação feita para gerenciar nossos gastos diários.
 
-## Available Scripts
+Foi criada utilizando o padrão <strong>MERN</strong> Stack:</br>
+- [MongoDB](https://www.mongodb.com/atlas/database) 
+- [Express](https://expressjs.com/pt-br/)
+- [React](https://react.dev/)  
+- [Node](https://nodejs.org/en)
 
-In the project directory, you can run:
+Captura de tela:</br>
+<img src="./print.png" alt="Banana" title="Olha a banana dançando!" />
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Possíveis Melhorias
 
-### `npm test`
+O app já está totalmente funcional, </br>
+porém aqui segue uma lista de sugestões que podem ser implementadas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Editar os gastos;
+- Deletar algum item da lista;
+- Colocar ícones;
+- Pode filtrar os gastos mensais/semanais/diários;
 
-### `npm run build`
+###### A criatividade é o limite!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dicas de uso:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Criar um projeto base em react no diretório atual:**
+>npm create react-app .
 
-### `npm run eject`
+**Executar o server / compilador do React**
+> npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Rodar o server do Express:**
+> node index.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Dependência usadas nesse projeto:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Nome | Função
+---- | ------
+Cors | Protocolo de comunicação com o banco
+Dotenv | Processa variáveis de ambiente
+Express | Framework do Node.js
+Mongoose | Conexão com o banco de dados
